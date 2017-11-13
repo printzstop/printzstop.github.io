@@ -271,19 +271,30 @@ So lets start Luxurious Digital Print with us.</p>
             
             <div class="col-sm-6">
             
-            <form method="POST" id="formspree">
+            <form action="https://formspree.io/your@email.com"
+      method="POST">
+    <input type="text" name="name" placeholder="Organisation Name">
+    <input type="email" name="email" placeholder="Email">
+    <input type="number" name="Mobile" placeholder="Mobile Number">
+    <input type="text" name="message" placeholder="Message">
+    <input type="submit" value="Send">
+</form>
+	<script>
+                var contactform =  document.getElementById('formspree');
+                contactform.setAttribute('action', 'https://formspree.io/' + 'theprintz' + 'stop' + '@' + 'outlook' + '.' + 'com');
+                </script>
+           
+
+
+            <!-- <form method="POST" id="formspree">
 <input type="email" name="email" class="formtxtinput" placeholder="Email">
 <input type="hidden" name="_subject" value="Site Response">
 <input type="text" name="number" class="formtxtinput1" placeholder="Mobile Number">
 <input type="text" name="_gotcha" class="gotcha" />
 <input type="hidden" name="_next" value="http://printzstop.com" />
 <button type="submit">Submit</button>
-</form>
-				<script>
-                var contactform =  document.getElementById('formspree');
-                contactform.setAttribute('action', 'https://formspree.io/' + 'theprintz' + 'stop' + '@' + 'outlook' + '.' + 'com');
-                </script>
-            
+</form> -->
+			 
            <!-- <form action="#" method="post" name="contact-form" id="main-contact-form">
                                 <div class="form-group">
                                     <input type="text" required placeholder="Name" class="form-control" name="name">
