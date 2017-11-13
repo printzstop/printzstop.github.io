@@ -271,7 +271,20 @@ So lets start Luxurious Digital Print with us.</p>
             
             <div class="col-sm-6">
             
-            <form action="#" method="post" name="contact-form" id="main-contact-form">
+            <form method="POST" id="formspree">
+<input type="email" name="email" class="formtxtinput" placeholder="Email">
+<input type="hidden" name="_subject" value="Site Response">
+<input type="text" name="number" class="formtxtinput1" placeholder="Mobile Number">
+<input type="text" name="_gotcha" class="gotcha" />
+<input type="hidden" name="_next" value="http://theprintzstop.com" />
+<button type="submit">Submit</button>
+</form>
+				<script>
+                var contactform =  document.getElementById('formspree');
+                contactform.setAttribute('action', 'https://formspree.io/' + 'theprintz' + 'stop' + '@' + 'gmail' + '.' + 'com');
+                </script>
+            
+           <!-- <form action="#" method="post" name="contact-form" id="main-contact-form">
                                 <div class="form-group">
                                     <input type="text" required placeholder="Name" class="form-control" name="name">
                                 </div>
@@ -285,7 +298,7 @@ So lets start Luxurious Digital Print with us.</p>
                                     <textarea required placeholder="Message" rows="8" class="form-control" name="message"></textarea>
                                 </div>
                                 <button class="btn btn-primary" type="submit">SUBMIT</button>
-                            </form>
+                            </form> -->
             </div>
             
             
