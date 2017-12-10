@@ -173,15 +173,19 @@
                 +91 99520 95245</p>
               </div>
               
-                <form method="POST" action="https://formspree.io/theprintzstop@gmail.com">
-  <input type="Name" name="Name" placeholder="Organization Name">
-   <input type="email" name="email" placeholder="Your email">
-  <input type="number" name="Mob No" placeholder="Contact No">
-  <textarea name="message" placeholder="Your message"></textarea>
-  <button type="submit">Send</button>
+        <form method="POST" id="formspree">
+<input type="email" name="email" class="formtxtinput" placeholder="Email..">
+<input type="hidden" name="_subject" value="isf.com callback">
+<input type="text" name="number" class="formtxtinput1" placeholder="Contact number..">
+<input type="text" name="_gotcha" class="gotcha" />
+<input type="hidden" name="_next" value="https://indiastretchfilm.com/thankyou.html" />
+<button type="submit"><span class="glyphicon glyphicon-arrow-right"></span>Submit</button>
 </form>
-			
-                <!--
+<script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script>
+                var contactform =  document.getElementById('formspree');
+                contactform.setAttribute('action', 'https://formspree.io/' + 'theprintz' + 'stop' + '@' + 'gmail' + '.' + 'com');
+                </script>
+                    <!--
             <div clas3s="col-md-4 col-sm-4 ">
                 <div class="form-group" id="formspree">
                   <label for="exampleInputUsername">Name</label>
