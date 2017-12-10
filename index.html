@@ -18,6 +18,7 @@
     <![endif]-->
 </head>
 <body>
+<div class="headdd">
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid"> 
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -27,10 +28,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="defaultNavbar1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link<span class="sr-only">(current)</span></a></li>
+        <li> <a href="#">Home<span class="sr-only"></a></li>
 		<li><a href="#section-aboutus">About Us</a></li>
-     <li><a href="#">Link</a></li>
-     <li><a href="#">Link</a></li>
+     <li><a href="#">Our Services</a></li>
+     <li><a href="#">Contact Us</a></li>
       </ul>     
     </div>
     <!-- /.navbar-collapse --> 
@@ -68,6 +69,7 @@
   });
   
 });
+	</headdd>
 	</script>
 <div class="content-wrapper" id="section-aboutus">
     <section class="primary" id="portfolio">
@@ -155,17 +157,7 @@
         </div>
     </div>
 <section id="Contact-form">
-<div class="container">
-	<div class="row-fluid">
-        <div class="span6">
-        	<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.0794058304714!2d80.28424435637731!3d13.09415393694315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526f5aa1d1ee75%3A0x3024168c593ddf7d!2s1%2C+Jones+St%2C+Mannady%2C+George+Town%2C+Chennai%2C+Tamil+Nadu+600001!5e0!3m2!1sen!2sin!4v1511857318651"> 
-        	</iframe>
-    	</div>
 
-	</div>
-</div>
-
-  <br>
       <div class="container">
         <div class="contact-header" align="center">
           <h2>Cotact Form</h2>
@@ -181,23 +173,18 @@
                 +91 99520 95245</p>
               </div>
               
-            
-               <form method="POST" id="formspree">
-               <div class="col-md-4 col-sm-4 ">
-    <input type="text" class="textsmall" name="name" placeholder="Organisation Name">
-    <input type="email" class="textsmall" name="email" placeholder="Email">
-    <input type="number" class="textsmall" name="Mobile" placeholder="Mobile Number">
-				   </div>
-    <div class="col-md-4 col-sm-4 ">
-    <input type="text" name="message" class="textarea" placeholder="Message">
-    <input type="submit" class="submit" value="Send">
-				   </div>
+                <form method="POST" id="formspree">
+    <input type="text" name="name" placeholder="Organisation Name">
+    <input type="email" name="email" placeholder="Email">
+    <input type="number" name="Mobile" placeholder="Mobile Number">
+    <input type="text" name="message" placeholder="Message">
+    <input type="submit" value="Send">
 </form>
 	<script>
                 var contactform =  document.getElementById('formspree');
                 contactform.setAttribute('action', 'https://formspree.io/' + 'theprintz' + 'stop' + '@' + 'outlook' + '.' + 'com');
                 </script>
-                
+
                 <!--
             <div class="col-md-4 col-sm-4 ">
                 <div class="form-group" id="formspree">
@@ -231,6 +218,17 @@
               
         </form>
 -->
+<br>
+<div class="container">
+	<div class="row-fluid">
+        <div class="span6">
+        	<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.0794058304714!2d80.28424435637731!3d13.09415393694315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526f5aa1d1ee75%3A0x3024168c593ddf7d!2s1%2C+Jones+St%2C+Mannady%2C+George+Town%2C+Chennai%2C+Tamil+Nadu+600001!5e0!3m2!1sen!2sin!4v1511857318651"> 
+        	</iframe>
+    	</div>
+
+	</div>
+</div>
+
 <div class="row">
     <div class="text-center col-md-6 col-md-offset-3">
       <p>Copyright &copy; 2015 &middot; All Rights Reserved &middot; The Printz Stop</p>
