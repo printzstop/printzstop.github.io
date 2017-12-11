@@ -153,16 +153,24 @@ form{
 	margin: 30px auto;
 }
 
-.textarea {
-    height: 135px;
-   
+.formtxtinput {
+    height: 50px;
+	align-content: center;
+
 }
-.textsmall {
-    height: 40px;
-   
+	
+.formtxtinput1 {
+    height: 50px;
+	align-content: center;
+}
+.formtxtinput2 {
+    height: 50px;
+	align-content: center;
+	
 }
 .submit{
 	width: 150px;
+	align-content: center;
 }
 
 /*Footer*/
