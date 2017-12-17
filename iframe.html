@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Agency Template</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- FOOTER -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-offset-3 col-xs-12 col-lg-6">
+      <div class="jumbotron">
+        <div class="row text-center">
+          <div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2>Request a free quote</h3>
+          </div>
+          <div class="text-center col-lg-12"> 
+            <!-- CONTACT FORM https://github.com/jonmbake/bootstrap3-contact-form -->
+            <form id="contactform" method="POST">
+<input style="width:80%; height:40px; margin-top: 10px;"type="text" name="orgname" placeholder="Organisation Name"> <br />
+<input style="width:80%; height:40px; margin-top: 10px;"type="email" name="email" placeholder="Email"> <br />
+<input type="hidden" name="_subject" value="theprintzstop.com form contact">
+<input style="width:80%; height:40px; margin-top: 10px;"type="text" name="number" placeholder="Contact number"> <br />
+<textarea style="width:80%; height:100px; margin-top: 10px;" name="message" placeholder="Your message"></textarea> <br />
+<input type="text" name="_gotcha" style="display:none" />
+<input type="hidden" name="_next" value="http://printzstop.com" />
+<button style="width:80%; height:40px; margin-top: 10px;"type="submit" value="send" class="buttonsubmit">Send Enquiry</button>
+</form>
+<script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'theprintzstop' + '@' + 'gmail' + '.' + 'com');
+</script>
+                        
+                                    
+                                                            <!-- END CONTACT FORM --> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- / FOOTER --> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

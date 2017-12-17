@@ -53,10 +53,12 @@ header .intro-text .skills {
   text-align: center;
   margin: 4rem;
   text-transform: uppercase;
+  border: thick;
   animation: background-move 10s infinite;
   background: url(https://blog.spoongraphics.co.uk/wp-content/uploads/2012/retro-pattern/triangle-pattern.jpg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 
 @keyframes background-move {
@@ -207,3 +209,7 @@ footer  .fa{
 	text-align: center;
 }
 }
+.first-box{padding:10px;background:#9C0;}
+.second-box{padding:10px; background:#39F;}
+.third-box{padding:10px;background:#F66;}
+.fourth-box{padding:10px;background:#6CC;}
