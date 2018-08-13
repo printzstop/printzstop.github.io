@@ -1,5 +1,5 @@
 Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{HTTP_HOST} .
-RewriteCond %{HTTP_HOST} !^chennaiboltnut.com
-RewriteRule (.*) http://chennaiboltnut.com/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} !^printzstop.com
+RewriteRule (.*) http://printzstop.com/$1 [R=301,L]
