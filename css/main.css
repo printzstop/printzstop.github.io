@@ -1,10 +1,30 @@
-/*
-	ITS Chennai - itschennai.co.in
-*/
 
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
+
+ .navbar {
+      margin-bottom: 0;
+      background-color: #fff;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #9cc53b !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #9cc53b !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #9cc53b !important;
+  }
 
 .header-image {
     display: block;
