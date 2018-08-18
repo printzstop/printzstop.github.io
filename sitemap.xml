@@ -8,8 +8,44 @@
 
 
 <url>
-  <loc>http://printzstop.com/</loc>
-  <lastmod>2018-08-13T04:16:08+00:00</lastmod>
+  <loc>https://printzstop.com/</loc>
+  <lastmod>2018-08-18T03:31:41+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://printzstop.com/signages.html</loc>
+  <lastmod>2018-08-18T03:31:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://printzstop.com/signages/chennai.html</loc>
+  <lastmod>2018-08-18T03:31:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://printzstop.com/signages/Hyderabad.html</loc>
+  <lastmod>2018-08-18T03:31:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://printzstop.com/signages/pondicherry.html</loc>
+  <lastmod>2018-08-18T03:31:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://printzstop.com/signages/Vijaywada.html</loc>
+  <lastmod>2018-08-18T03:31:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://printzstop.com/signages/banglore.html</loc>
+  <lastmod>2018-08-18T03:31:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://printzstop.com/signages/Thiruvanthapuram.html</loc>
+  <lastmod>2018-08-18T03:31:41+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
